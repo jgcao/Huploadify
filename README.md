@@ -3,7 +3,7 @@ Huploadify
 
 jQuery文件上传插件，HTML5版uploadify，保持与uploadify一致的API，完全山寨。Uploadify官网：[http://www.uploadify.com/](http://www.uploadify.com/)
 
-#####已实现的特性有：
+##### 已实现的特性有：
 1. 多文件上传
 2. 显示进度条
 3. 显示已上传文件大小和百分比
@@ -15,7 +15,9 @@ jQuery文件上传插件，HTML5版uploadify，保持与uploadify一致的API，
 
 ------------
 
-#####已实现常用的API，default配置信息如下：
+##### 已实现常用的API，default配置信息如下：
+
+```
     fileTypeExts:'*.*',//允许上传的文件类型，格式'*.jpg;*.doc'
     uploader:'',//文件提交的地址
     auto:false,//是否开启自动上传
@@ -39,7 +41,9 @@ jQuery文件上传插件，HTML5版uploadify，保持与uploadify一致的API，
     onDestroy:null,//在调用destroy方法时触发
     onSelect:null,//选择文件后的回调函数，可传入参数file
     onQueueComplete:null//队列中的所有文件上传完成后触发
-#####使用方法
+```
+
+##### 使用方法
 首先页面上需要一个容器，通常是一个div，如：
 
 `<div id="upload"></div>`
